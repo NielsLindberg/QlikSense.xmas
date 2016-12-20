@@ -2,20 +2,12 @@
   "name": "amWaterfall",
   "version": "1.0.0",
   "description": "Repository for qliksense extension work on amWaterfall",
-  "main": "amWaterfall/amWaterfall.js",
+  "main": "noscope/h4x.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NielsLindberg/QlikSense.Qliksense.Extension.amWaterfall.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NielsLindberg/Qliksense.Extension.amWaterfall/issues"
-  },
-  "homepage": "https://github.com/NielsLindberg/Qliksense.Extension.amWaterfall#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",

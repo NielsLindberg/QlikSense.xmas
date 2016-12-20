@@ -1,0 +1,793 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"too",
+				"toggleBounce"
+			],
+			[
+				"spee",
+				"speedMultiplicator"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"header",
+				"pageHeaderHeight"
+			],
+			[
+				"bd",
+				"bd+\tborder: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"format",
+				"formattedDescription"
+			],
+			[
+				"formate",
+				"formattedDates"
+			],
+			[
+				"formatted",
+				"formattedTitle"
+			],
+			[
+				"formattedEm",
+				"formattedEmployer"
+			],
+			[
+				"formattedEmp",
+				"formattedEmployerTitle"
+			],
+			[
+				"card",
+				"card-container"
+			],
+			[
+				"bo",
+				"text-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "noscope/wbFolder.wbl",
+			"settings":
+			{
+				"buffer_size": 7,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 566,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 381,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "noscope/h4x.qext",
+			"settings":
+			{
+				"buffer_size": 199,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "noscope/h4x.js",
+			"settings":
+			{
+				"buffer_size": 710,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n.button::before {\n  content: '';\n  display: block;\n  position: absolute;\n  top: -7px;\n  left: -3px;\n  right: 0;\n  height: 23px;\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAXCAYAAACS5bYWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABFpJREFUeNrUV0tIo1cUvpkYjQ4xxSA6DxuNqG0dtaUKOgs3s6i0dFd3pSsXdjeIixakiGA34sZuXCkoONLFwJTK4GMYLYXg29gatTpiXurkbd7vv9/5ub+IxuhA7eiFQ5Kbc8/57ne/e87/ywRBYLdl3GG3aNwqsLJ0k0tLS+fmcnNzWUVFBVMoFGx2djarvLxcm5OTw+bm5iytra2xc4ExNjY27iqVyvvwK6CpeDzuCYVC1urq6qDA9UcfPp+PHR4esmAwKK6tr68/l5/8rgQ2Ozub1dbWyiYmJooaGxt/VqvV38jlchX9l0qlwoFA4DWS/RKLxRxFRUVf5+XlPcaaT2AP0sVPJBL2SCRiAPBpu93+vKamZo/Ae71eZjabWV1dXVqw7CKwp43ksrCw8Bhg7MJ/PLDZ5PHx8cz29vYT5JGD/bSYLgTrcDgYdk6siSc6NjZWDaAe4ZoHQL+cmZnRpZPnhWDpD8kw7uKo9ML/NMCsd2tr61vkzboMrEyv138M7TyLRqMWMBsX3sMgaZhMpp+AR5EJrCocDpuEGzKg4x8khs+CVWxubvZfR9JkMik4nU7BarUKLpeLmLsKuwIqTLynp4fqmIzASrqQT09Pf1VVVfX0KsWZ6uHBwQHTaDSsoKAgo6/H4xHLEcrVyRwuEisrKzs5XrrIVAVwiUVDKRRrL+YI32ewdVhMApuHWvcj6vids6J2u90MF4yBHUZNgKoEBaRBQalJqFSqtJfUYrGIlQX+ydXVVTN+u0tKSjQNDQ1axJVl2iTypebn55d7e3v/kqoDgZU1NTU9LCws/Py0M+2ekuGincxJ3yF+18jIyHJLS0slQJUWFxczrBeBE0vE5tHRkbixlZWVfSR8gTX/0P5gH7S1tX3Z3t7+BW8qAvwSfr8/jA0EIRM/qoFtampqbW9vTw+XA+ojUruVd3Z2tvb19T2TQFEim81GgVJoCvvj4+NLOJZgaWmpemdn5y3a6BbcnJDAw8HBwac6ne6eqCW5XDwB3qVSqM9/DAwMUNy/eVLabT7sI25qwgujThCBhWE+mAt2yNc4SQKSZrOQQE1HS22VJkmPAGTr7+//fX19fRk+Zgq0trbGeFAKEAQT98BSqKOj47vm5uaa/Px8JeIk4GcaHh6eWlxcfAU/A8xG67BxAX3fwdcbYUpSDJ06Z49Ak8ZC3OL8f3YiA4PBYKdLQ2AJ9OTk5GpXV9cQiCVh79M94QtlPLDUE/1gPNrd3f0W33W4cBoco48zQuy/IZYAMnGqlSc4c66L9JruQUaSARXeT8HGKzxAqFBekni6+h46+pMzGiJGMgTOJh1yU/KNEGDvZWvfBawkA9ppwGg0mrRa7SOI2g+gxOgbJIpdFpj72PnxSnPX8vqRxTURgBQWKisrH+GThOm+CtAzoK/9/Uiqq/6hoaHfdnd3jaOjo7/yY7yxbwqkWy3sQzpS2C6YirwvUJk0y7hurfyGRrnduPGvAAMASmo8wzeVwfsAAAAASUVORK5CYII=) no-repeat 0 0,\n  url(data:image/png;base64,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) no-repeat 50% 0,\n  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAXCAYAAACFxybfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAodJREFUeNrsVb1rWlEUv2pN/GqspKRSKFYXWzEloIWif0Fn6dJChQ7OQil0qd3EzcEpg0OgdHDr4CQODk7VRlLMEIVqApX4We0zflR9/Z1Ui4T34ksaaAYP/Hzc673n/M6550PG8zz73yKjn0wm83fDYDAwo9HINBrNnwOQg4MDs0ql2lQqlfdAWont7ng8Pjw+Ps44nc4G1pI9EXWaSOzt7TGO42aH5Pv7+08ajUZ0MBiUeXEZd7vdL5VK5fX29rZ+5tQiEmdxKrlcjsEYczgcynK5/BKKv/IXFNz/XiqVXkHdjUuRIA9SqdRD8or/R8Ez9fr9fqHVakUR4c2z0REjIQuHw2ZcrPBXLCA0RHTezEdHjIQqkUhEr9I4HOILhQLf6/VoOUFEvDMiQiToDx1Cdz+bzZ6bUFarlel0OkkVUK/XWbvdPoVer5fh3ntsfwJ+CJ2XA4p0Op1bpBgJyxDehQQ6nQ5DZXHBYDBZq9V+EhFUndnr9drEqoc2bwJbwGPgtohuVSwWe2Gz2TZMJpNgRKi6qtUqg2EWj8dTgUDgo0KhWPN4PC70EvXOzs67fD6/S6kiRIKeZA1YJ2MiJNbdbvfTUCjkV6vVK2hcDF8GI2w0GrGTkxM2HA5PDxaLxSOfz/cWEfk81X0XIMMFgJJ/srBjCgk8IdcfuVyuZ36//7nFYtkQyAMumUzuRiKRD0jMFLa+AZOpYwqgB/ziBVqmVBKUO7eAB/R0WG/Z7XaTVqtdbTabHJL6EK2djBaBPHA0NSqpbUsiMUeEBgpF4Q5AbZrmSJ/yEWgBTaBNHl9kdkgmMUeG7qwAq9PqovceTA3zlxlgsuswyuXsGsiSxJLEkoSY/BZgAEjRodi+uBruAAAAAElFTkSuQmCC) no-repeat 100% 0;\n\n}\n.button:hover {\n  background: #a61715;\n  text-shadow: 0 1px 2px rgba(0,0,0,0.75), 0 0 40px #FFF;\n  box-shadow:\n    inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */\n    inset 0 0 6px #da3b2c, /* inner glow */\n    inset 0 80px 80px -40px #dd4330, /* gradient */\n    1px 1px 3px rgba(0,0,0,0.75); /* shadow */\n\n}\n.button:focus {\n  outline: none; /*FF*/\n}\n.button:active {\n  box-shadow:\n    inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */\n    inset 0 0 6px #da3b2c, /* inner glow */\n    inset 0 80px 80px -40px #dd4330, /* gradient */\n    0px 1px 0px rgba(255,255,255,0.25); /* shadow */\n\n  -webkit-transition: 50ms linear;\n     -moz-transition: 50ms linear;\n       -o-transition: 50ms linear;\n          transition: 50ms linear;\n}",
+			"file": "noscope/h4xcode.js",
+			"file_size": 6770,
+			"file_write_time": 131267310558535563,
+			"settings":
+			{
+				"buffer_size": 5853,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 469.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Cont",
+				"Package Control: Install Package"
+			],
+			[
+				"Autoprefix CSS",
+				"Autoprefix CSS"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 553.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"install",
+			"Autoprefix CSS",
+			".jshintrc",
+			"view.run_command(\"jshint\")",
+			"$ bower install jquery",
+			"bower install jquery",
+			"npm install -g bower",
+			"bower install jquery",
+			"npm --version",
+			"install --save polymer",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Workspace/QlikSense/the.most.innovative.extension.ever.period",
+		"/D/Workspace/QlikSense/the.most.innovative.extension.ever.period/noscope",
+		"/D/Workspace/QlikSense/the.most.innovative.extension.ever.period/noscope/library",
+		"/D/Workspace/QlikSense/the.most.innovative.extension.ever.period/noscope/library/images"
+	],
+	"file_history":
+	[
+		"/D/Workspace/QlikSense/the.most.innovative.extension.ever.period/noscope/properties.js",
+		"/D/Workspace/Udacity/P4/js/bio.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/amCombo.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/properties.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/amChartCategoryAxis.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/amGraph.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/README.md",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Niels/Desktop/Printesa/index.html",
+		"/D/Workspace/createjs/index.html",
+		"/D/Workspace/createjs/js/first.js",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/D/workspace/createjs/index.html",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/dataProvider.js",
+		"/D/Workspace/vue-firebase/src/App.vue",
+		"/D/Workspace/vue-firebase/src/components/Hello.vue",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/node_modules/numeral/numeral.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/wbFolder.wbl",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/amChart.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/library/numeral.js",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/node_modules/numeral/languages.js",
+		"/D/Workspace/CBS/BigSocialData/SentimentAnalysis/facebook_data.py",
+		"/D/Workspace/Udacity/mapApp/src/js/models/mapEntries.js",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/D/Workspace/friendlychat/web-start/firebase.json",
+		"/D/Workspace/friendlychat/web-start/database-rules.json",
+		"/D/Workspace/friendlychat/web-start/scripts/main.js",
+		"/D/Workspace/friendlychat/web-start/index.html",
+		"/D/Workspace/friendlychat/web-start/storage-rule.json",
+		"/D/Workspace/gkeep-vueifire/src/App.vue",
+		"/D/Workspace/gkeep-vueifire/src/components/notes/index.vue",
+		"/D/Workspace/gkeep-vueifire/src/main.js",
+		"/D/Workspace/vue-firebase/package.json",
+		"/D/Workspace/vue-firebase/src/firebase/firebase-connect.js",
+		"/D/Workspace/vue-firebase/src/main.js",
+		"/D/Workspace/vue-matdesign/node_modules/vue-material/src/components/mdSidenav/mdSidenav.vue",
+		"/D/Workspace/vue-matdesign/src/main.js",
+		"/D/Workspace/vue-matdesign/build/webpack.base.conf.js",
+		"/D/Workspace/vue-matdesign/src/components/Hello.vue",
+		"/D/Workspace/vue-matdesign/src/App.vue",
+		"/D/Workspace/vue-matdesign/index.html",
+		"/D/Workspace/vue-test/src/components/Hello.vue",
+		"/D/Workspace/vue-test/src/App.vue",
+		"/D/Workspace/vue-test/src/main.js",
+		"/D/Workspace/vue-test/.eslintignore",
+		"/D/Workspace/vue-test/index.html",
+		"/D/workspace/vue-matdesign/package.json",
+		"/D/Workspace/vue-test/src/components/Dragger.vue",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/D/Workspace/vue-test/package.json",
+		"/D/Workspace/vue-test/build/webpack.base.conf.js",
+		"/D/Workspace/test/src/App.vue",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/D/Workspace/vue-test/.eslintrc.js",
+		"/D/Workspace/my-project/src/main.js",
+		"/D/Workspace/loleee/webpack.config.js",
+		"/D/Workspace/yoyo/.eslintrc.js",
+		"/D/Workspace/vue-test/node_modules/eslint/conf/environments.js",
+		"/C/Users/Niels/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/Workspace/Udacity/mapApp/mapApp.sublime-project",
+		"/D/Workspace/Udacity/ud549/test",
+		"/D/Workspace/Udacity/ud549/SpecRunner.html",
+		"/D/Workspace/Udacity/mapApp/README.md",
+		"/D/Workspace/Udacity/mapApp/src/index.html",
+		"/D/Workspace/Udacity/mapApp/src/css/style.less",
+		"/D/Workspace/Udacity/mapApp/src/js/main.js",
+		"/D/Workspace/Udacity/P5/frontend-nanodegree-arcade-game/js/engine.js",
+		"/D/Workspace/Udacity/P5/frontend-nanodegree-arcade-game/js/app.js",
+		"/D/Workspace/Udacity/P4/css/style.css",
+		"/D/Workspace/CBS/yoprogram.py",
+		"/D/Workspace/Udacity/mapApp/Gruntfile.js",
+		"/D/Workspace/Udacity/frontend-nanodegree-arcade-game/js/app.js",
+		"/D/Workspace/CBS/data.json",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/index.html",
+		"/D/Workspace/CBS/yoyo.py",
+		"/D/Workspace/CBS/quandl/WWDI.py",
+		"/D/Workspace/Udacity/mapApp/src/js/mapStyles.js",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/Gruntfile.js",
+		"/D/Workspace/Udacity/mapApp/bower.json",
+		"/D/Workspace/Udacity/P4/js/builder.js",
+		"/D/Workspace/CBS/quandl/test.py",
+		"/D/Workspace/Udacity/P4/css/style.less",
+		"/D/Workspace/QlikSense/amcharts/QlikSense.amCharts/amCombo/library/chalk.js",
+		"/D/Workspace/Udacity/P4/js/map.js",
+		"/D/Workspace/Udacity/mapApp/src/css/style.css",
+		"/C/Users/Niels/Downloads/ScandinaviaLevel2new.kml",
+		"/C/Users/Niels/Downloads/Scandinavia level 1.kml",
+		"/D/Workspace/MapData/KML-zip_20160907044612.kml",
+		"/C/Users/Niels/workspace/ConvertMapXMLtoCSV/src/temp/x.csv",
+		"/C/Users/Niels/workspace/ConvertMapXMLtoCSV/src/style.xsl",
+		"/C/Users/Niels/Downloads/DNK_adm2.rds",
+		"/D/Workspace/MapData/DNK_adm_shp.zip",
+		"/C/Users/Niels/Downloads/ScandinaviaLevel2.kml",
+		"/C/Users/Niels/Downloads/Denmark divisions. Level 2.kml",
+		"/C/Users/Niels/Downloads/Scandinavia level 2.kml",
+		"/C/Users/Niels/Downloads/DNK_adm2.kmz",
+		"/D/Workspace/Udacity/P4/js/edu.js",
+		"/D/Workspace/Udacity/mapApp/bower_components/knockout/dist/knockout.js",
+		"/D/Workspace/Udacity/boilerplate/src/css/style.css",
+		"/D/Workspace/Udacity/boilerplate/src/js/main.js",
+		"/D/Workspace/Udacity/mapApp/boilerplate/package.json",
+		"/D/Workspace/Udacity/boilerplate/README.md",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/views/js/main.js",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/package.json",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/README.md",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/frontend-nanodegree-mobile-portfolio",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/views/css/style.css",
+		"/D/Workspace/Udacity/boilerplate/package.json",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/dist/project-mobile.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/views/pizza.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/dist/project-webperf.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/project-2048.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/js/googleanal.js",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/project-webperf.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/src/project-mobile.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/dist/views/pizza.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/dist/views/css/style.css",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/dist/project-2048.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/dist/index.html",
+		"/D/Workspace/Udacity/frontend-nanodegree-mobile-portfolio/dist/js/googleanal.js",
+		"/D/Workspace/Udacity/udportfolio/Gruntfile.js",
+		"/D/Workspace/Udacity/udportfolio/package.json",
+		"/D/Workspace/Udacity/web-workers-demo/scripts/imageManips.js",
+		"/D/Workspace/Udacity/web-workers-demo/scripts/worker.js"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dataProviderNew",
+			"ordinal",
+			"console",
+			"addMeasureData",
+			"displayMessage",
+			"setImageUrl",
+			"template",
+			"yelpview",
+			"content-button",
+			".content button",
+			".content-button",
+			"display",
+			"#pano",
+			"result-container",
+			"yelp",
+			"directionsDisplayList",
+			"populateinfowindow",
+			"itemLabelFilter",
+			"console",
+			"categoryColors",
+			"category",
+			"overflow",
+			"mapEntryList",
+			"food",
+			"service",
+			"<SimpleData name=\"NAME_2\"></SimpleData>",
+			"<name>",
+			"<Polygon>",
+			"NAME_2",
+			"embed",
+			"tilesHeight",
+			"tilesWidth",
+			"topOffset",
+			"numberOfEnemies",
+			"speedMultiplicator",
+			"tileswidth",
+			"tilesHeight",
+			"console",
+			"titlesWidth",
+			"titlesHeight",
+			"101",
+			"83",
+			"titlesHeight",
+			"505",
+			"83",
+			"background",
+			"link",
+			"center",
+			"callback",
+			"googlemap",
+			"coin",
+			"style",
+			">: ",
+			"> ",
+			"Theyare",
+			"  ",
+			"really",
+			"Family",
+			"<div class=\"article\">\n<h1>Addams Family</h1>\n<p>They really are a scream the Addams Family.</p>\n<a href=\"#\">Read more +</a>\n</div>\n",
+			"class",
+			"About",
+			"=\"#\">",
+			"Home",
+			"=\"#\">",
+			"Home",
+			"here",
+			"border",
+			"'",
+			"\"",
+			"'",
+			"\""
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ul",
+			"li"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\Workspace\\QlikSense\\the.most.innovative.extension.ever.period"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "noscope/wbFolder.wbl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".wbl",
+								"current_syntax": "Text/Plain text",
+								"enabled": false,
+								"last_updated": 1482254776.1
+							},
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "Theme - SoDaReloaded/settings/langs/Gruntfile JS",
+								"enabled": false,
+								"last_updated": 1482254776.1
+							},
+							"syntax": "Packages/Theme - SoDaReloaded/settings/langs/Gruntfile JS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								381,
+								381
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".json",
+								"current_syntax": "Theme - SoDaReloaded/settings/langs/npm JSON",
+								"enabled": false,
+								"last_updated": 1482254776.1
+							},
+							"syntax": "Packages/Theme - SoDaReloaded/settings/langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "noscope/h4x.qext",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".qext",
+								"current_syntax": "Text/Plain text",
+								"enabled": false,
+								"last_updated": 1482254776.1
+							},
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "noscope/h4x.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1482254776.1
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "noscope/h4xcode.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5853,
+								5853
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1482254776.1
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
