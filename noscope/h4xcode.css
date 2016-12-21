@@ -1,6 +1,6 @@
 .hax {
   outline: none;
-  background-color: #F2F2F2;
+  background-color: #FFFFFF;
   box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.25), /* highlight */
   1px 1px 3px rgba(0, 0, 0, 0.75);
 }
@@ -18,4 +18,5 @@
 
 .haxer {
   background-image: url('http://www.crestock.com/uploads/blog/wallpapers/xmas08/crestock-1293599-2560x1600.jpg');
+  background-size: contain;
 }
