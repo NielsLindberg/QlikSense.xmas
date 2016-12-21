@@ -18,5 +18,14 @@
 
 .haxer {
   background-image: url('http://www.crestock.com/uploads/blog/wallpapers/xmas08/crestock-1293599-2560x1600.jpg');
-  background-size: contain;
+  background-size: cover;
+}
+
+.haxo {
+  display: none;
+  background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/1827/1827885.png?1317103683');
+}
+
+.mlg420 {
+  background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/1827/1827885.png?1317103683');
 }

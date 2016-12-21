@@ -15,12 +15,11 @@ define([
         var sheet = $('#grid-wrap');
         var imageUrl = 'http://www.crestock.com/uploads/blog/wallpapers/xmas08/crestock-1293599-2560x1600.jpg';
         var objects = $('article.qv-object.qvt-visualization');
-
+        var titleBar = $('.sheet-title-container');
         //sheet.css('background-image', 'url("' + imageUrl + '")');
         sheet.addClass('haxer');
         objects.addClass('hax');
-
-
+        titleBar.addClass('haxo');
       }
     };
   });
